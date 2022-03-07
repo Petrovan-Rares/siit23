@@ -13,7 +13,57 @@
       .icon {
         width: 30px;
         height: 30px;
+        display: inline-block;
       }
+      .big {
+        font-size: 20px;
+        width: 50px;
+        height: 50px;
+      }
+      nav {
+        font-size: 15px;
+      }
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      #secondarynav .icon {
+        padding: 0;
+        margin: 0;
+      }
+      #secondarynav > .icon {
+        padding: 0;
+        margin: 0;
+      }
+      #secondarynav > div {
+        padding: 0;
+        margin: 0;
+      }
+      .big.icon {
+        padding: 0;
+      }
+      [type="search"] {
+        padding: 0;
+      }
+      [type] {
+        padding: 0;
+      }
+      input[type="search"] {
+        padding: 0;
+      }
+      .clasa1,
+      .clasa2 {
+        padding: 0;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        margin-top: 20px;
+      }
+      
     </style>
   </head>
   <body>
@@ -38,7 +88,7 @@
         <button>SQL</button>
         <button>Python</button>
         <button>
-          <img class="icon" src="hamburger icon.png" alt="open menu" />
+          <img class="icon big" src="hamburger icon.png" alt="open menu" />
         </button>
         <button>
           <img class="icon" src="hamburger icon.png" alt="open menu" />
@@ -52,7 +102,7 @@
         </div>
         <hr />
         <h2>HTML tags Ordered Alphabetically</h2>
-        <input typ="search" placeholder="Search..." />
+        <input type="search" placeholder="Search..." />
         <table>
           <thead>
             <tr>
