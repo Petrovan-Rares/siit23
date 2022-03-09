@@ -1,14 +1,24 @@
 body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  background-color: gray;
 }
 aside {
-  background-color: red;
-  height: 100vh;
-  width: 30%;
-  float: left;
+  width: 250px;
 }
 section {
-  background-color: blue;
-  width: 70%;
-  height: 100vh;
-  float: left;
+  flex: 1;
+}
+#logo {
+  max-width: 50px;
+  max-height: 30px;
+}
+header {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-right: 3px solid;
 }
